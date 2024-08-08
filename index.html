@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <img class="logo" src="img/logoEcoboxWhite.png" alt="logoEcoboxWhite">
+    <h2>Indicadores Clave de Gestión</h2>
+    <form onsubmit="event.preventDefault(); validateUser();">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
